@@ -1,0 +1,21 @@
+=================
+Box Model Basics
+=================
+
+Understanding padding, borders, and margins all affects our content.
+We can set the width and height - if we don't set the content will have 100% of its parent container. The height will be determinate by how much content there is. 
+
+Inside out - container box <div>
+- heading level element <h1>
+- paragraph <p>
+The base width of this box is determined by width of the parent element or explicit setting a width for this content box.
+The height of the element unless specified it's going to be determinate by the amount of content that we have inside this box. 
+
+In base width and height is defined by the content itself.
+
+If we add padding - the box will be the content + padding.
+
+If we add a border - box will be content + padding + border.
+
+If we add a margin - box will be content + padding + border + margin.
+
