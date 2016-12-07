@@ -46,3 +46,13 @@ Positioning and Floats
 How absolute elements and fluid elements behave in a context of a box model.
 When we change the position of an element and make it absolute the width of that box will only take the room as the content needs. If we float the box left or right it only takes what the box requires. 
 This will change if we specify the width.
+
+================
+Inline Elements
+================
+
+How box model affects diferent types of elements.
+Ex. <span>
+Regardless how much padding we added the height will be determined by the line-height property. The vertical alignment is not affected by padding. The same happens to margin. 
+Margins and padding affects the left and right edges of our inline elements.
+
