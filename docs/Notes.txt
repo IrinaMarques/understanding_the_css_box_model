@@ -38,3 +38,11 @@ Boxes and Columns
 ==================
 
 Any time we add padding or borders or margins we have to acount for the extra width wheatever we size the content itself. We have to make adjustment to the calculations to the width of the content for the default behaviour of the box model.  
+
+=======================
+Positioning and Floats
+=======================
+
+How absolute elements and fluid elements behave in a context of a box model.
+When we change the position of an element and make it absolute the width of that box will only take the room as the content needs. If we float the box left or right it only takes what the box requires. 
+This will change if we specify the width.
