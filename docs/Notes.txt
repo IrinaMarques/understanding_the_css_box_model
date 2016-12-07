@@ -33,3 +33,8 @@ Full-Width Boxes
 
 If we specify 100% width and add padding the final result will be more then 100% of the width.
 
+==================
+Boxes and Columns
+==================
+
+Any time we add padding or borders or margins we have to acount for the extra width wheatever we size the content itself. We have to make adjustment to the calculations to the width of the content for the default behaviour of the box model.  
