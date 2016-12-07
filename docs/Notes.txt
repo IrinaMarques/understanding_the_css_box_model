@@ -19,3 +19,11 @@ If we add a border - box will be content + padding + border.
 
 If we add a margin - box will be content + padding + border + margin.
 
+=========================
+Chrome and the Box Model
+=========================
+
+Each element is contain in their own box that can have borders and margins and paddings set for it
+
+In Chrome click with the right bottom of the mouse and inspect. We can see all the different box models and in the right side if we set * { border: 1px solid red} we can see all the boxes.
+
