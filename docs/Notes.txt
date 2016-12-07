@@ -27,3 +27,9 @@ Each element is contain in their own box that can have borders and margins and p
 
 In Chrome click with the right bottom of the mouse and inspect. We can see all the different box models and in the right side if we set * { border: 1px solid red} we can see all the boxes.
 
+=================
+Full-Width Boxes
+=================
+
+If we specify 100% width and add padding the final result will be more then 100% of the width.
+
