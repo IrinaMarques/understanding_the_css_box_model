@@ -56,3 +56,13 @@ Ex. <span>
 Regardless how much padding we added the height will be determined by the line-height property. The vertical alignment is not affected by padding. The same happens to margin. 
 Margins and padding affects the left and right edges of our inline elements.
 
+===========
+Box-Sizing
+===========
+
+All that we see so far its by using the default size of box model.
+The a Css property called box-sizing: set to value of the content-box
+
+box-sizing: content-box
+box-sizing: border-box --> taking the width that we determined and that width is the total width of the column with borders and padding. Don't include margin. Decrease the size of the content inside the box.
+
